@@ -793,8 +793,15 @@ a{
 
 .footer .row .column
 {
-    width: 20%;
+    width: 19%;
+  
 }
+
+.footer .row .column:last-child
+{
+    padding-left: 63px;
+}
+
 
 .footer .column .title
 {
@@ -836,3 +843,4 @@ a{
     font-weight: 400;
     text-align: center;
 }
+
